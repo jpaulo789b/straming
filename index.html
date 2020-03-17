@@ -241,7 +241,7 @@
                         };
                         constraints = {
                             audio: false,
-                            video: video_constraints
+                            video: { facingMode: "environment" }
                         };
 
                         if(DetectRTC.isScreenCapturingSupported !== true) {
